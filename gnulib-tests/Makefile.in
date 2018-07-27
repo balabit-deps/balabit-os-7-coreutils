@@ -247,7 +247,7 @@ TESTS = test-accept$(EXEEXT) test-set-mode-acl.sh \
 	test-wcwidth$(EXEEXT) test-write$(EXEEXT) test-xalloc-die.sh \
 	test-xprintf-posix.sh test-xstrtoimax.sh test-xstrtol.sh \
 	test-xstrtoumax.sh test-xvasprintf$(EXEEXT) test-yesno.sh
-XFAIL_TESTS =
+XFAIL_TESTS = test-rwlock1
 noinst_PROGRAMS =
 check_PROGRAMS = test-accept$(EXEEXT) test-set-mode-acl$(EXEEXT) \
 	test-copy-acl$(EXEEXT) test-sameacls$(EXEEXT) \
