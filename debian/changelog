@@ -1,3 +1,9 @@
+coreutils (8.28-1ubuntu1bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Mon, 30 Jul 2018 19:03:49 +0200
+
 coreutils (8.28-1ubuntu1) bionic; urgency=low
 
   * Merge from Debian unstable.  Remaining changes:
